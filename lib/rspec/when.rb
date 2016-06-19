@@ -1,0 +1,3 @@
+require 'rspec/expectations/expectation_target'
+require_relative 'expectations/when_expectation_extensions'
+require_relative 'expectations/when_expectation_target'
