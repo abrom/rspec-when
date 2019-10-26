@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = 'rspec-when'
-  s.version           = '0.0.1'
+  s.version           = '0.0.2'
   s.summary           = 'RSpec extension for when syntax'
   s.author            = 'Andrew Bromwich'
   s.email             = 'a.bromwich@gmail.com'
@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 
   s.files = %w[README.md] + Dir.glob('lib/**/*.rb')
 
-  s.add_dependency 'rspec-expectations', '>= 2.0', '< 4.0'
+  s.add_dependency 'rspec-expectations', '>= 2.0', '< 5.0'
 end
